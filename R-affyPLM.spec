@@ -2,14 +2,14 @@
 
 Summary:	Methods for fitting probe-level models
 Name:		R-%{packname}
-Version:	1.34.0
+Version:	1.38.0
 Release:	1
 License:	LGPL v2+
 Group:		Applications/Engineering
 Source0:	http://bioconductor.org/packages/release/bioc/src/contrib/%{packname}_%{version}.tar.gz
-# Source0-md5:	95793fc13d81edf7db5e11dd49348302
+# Source0-md5:	bffb6a94e493311a4cb0f9cc53b696e0
 Patch0:		bogus-deps.patch
-URL:		http://bioconductor.org/packages/release/bioc/html/%{packname}.html
+URL:		http://bioconductor.org/packages/release/bioc/html/affyPLM.html
 BuildRequires:	R
 BuildRequires:	R-Biobase
 BuildRequires:	R-BiocGenerics
